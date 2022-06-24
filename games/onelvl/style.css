@@ -1,0 +1,96 @@
+
+	body{
+		background-color: #048c3b;
+	}
+
+	div.judul{
+		color: white;
+		margin-bottom: 30px;
+		font-family: Verdana;
+	}
+
+	div.judul h1{
+		text-align: center;
+	}
+
+	div.judul h3{
+		position: relative;
+		right: 90px;
+	}
+
+    input{
+        width: 80px;
+		height: 52px;
+        border-radius: 6px;
+        font-size: 25px;
+        text-align: center;
+		
+		font-size: 30px;
+		border: 1px solid gray;
+    }
+
+    .baris{
+        text-align: center;
+    }
+
+    .baris1 input{
+        background-color: bisque;
+    }
+
+    .baris2 input{
+        background-color: bisque;
+    }
+
+    .baris3 input:nth-child(1),
+    .baris3 input:nth-child(2),
+    .baris3 input:nth-child(5),
+    .baris3 input:nth-child(6){
+        background-color: bisque;
+    }
+
+    .baris4 input:nth-child(1),
+    .baris4 input:nth-child(2),
+    .baris4 input:nth-child(5),
+    .baris4 input:nth-child(6){
+        background-color: bisque;
+    }
+
+    .baris5 input{
+        background-color: bisque;
+    }
+
+    .baris6 input{
+        background-color: bisque;
+    }
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid dodgerblue;
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: dodgerblue;
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+a{
+	text-decoration: none;
+	color: azure;
+}
+
+.btn{
+	background-color: #12161a;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: #FFF;
+    cursor: pointer;
+}
+
