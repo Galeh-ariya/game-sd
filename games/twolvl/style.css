@@ -41,44 +41,48 @@
         background-color: bisque;
     }
 
-    .baris3 input:nth-child(1),
-    .baris3 input:nth-child(2),
-    .baris3 input:nth-child(5),
-    .baris3 input:nth-child(6){
+    .baris3 input{
         background-color: bisque;
     }
 
     .baris4 input:nth-child(1),
     .baris4 input:nth-child(2),
-    .baris4 input:nth-child(5),
-    .baris4 input:nth-child(6){
+    .baris4 input:nth-child(3),
+    .baris4 input:nth-child(7),
+    .baris4 input:nth-child(8),
+    .baris4 input:nth-child(9){
         background-color: bisque;
     }
 
-    .baris5 input{
+    .baris5 input:nth-child(1),
+    .baris5 input:nth-child(2),
+    .baris5 input:nth-child(3),
+    .baris5 input:nth-child(7),
+    .baris5 input:nth-child(8),
+    .baris5 input:nth-child(9){
         background-color: bisque;
     }
 
-    .baris6 input{
+    .baris6 input:nth-child(1),
+    .baris6 input:nth-child(2),
+    .baris6 input:nth-child(3),
+    .baris6 input:nth-child(7),
+    .baris6 input:nth-child(8),
+    .baris6 input:nth-child(9){
         background-color: bisque;
     }
 
-	/* Reset Button */
-	#but {
-		box-sizing: border-box;
-		width: 95px;
-		height: 40px;
-		border: 1px solid dodgerblue;
-		margin: auto;
-		border-radius: 4px;
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
+    .baris7 input{
+        background-color: bisque;
+    }
 
-		background-color: dodgerblue;
-		color: white;
-		font-size: 20px;
-		cursor: pointer;
-	}
+    .baris8 input{
+        background-color: bisque;
+    }
+
+    .baris9 input{
+        background-color: bisque;
+    }
 
 a{
 	text-decoration: none;

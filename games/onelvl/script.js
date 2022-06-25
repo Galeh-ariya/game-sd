@@ -181,16 +181,16 @@ bi4.addEventListener('click', function(){
             if(traversal(root, value)) {
 
                 if(isFull()) {
-                    alert("Kamu Menang");
+                    alert("Selamat Anda Menang");
                     location.reload();
                 }
 
             } else {
-                alert("Kamu Kalah");
+                alert("Game Over");
                 location.reload();
             }
         } else {
-            alert("Kamu Kalah");
+            alert("Game Over");
             location.reload();
         }
     })
